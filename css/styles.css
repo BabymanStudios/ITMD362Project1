@@ -2,11 +2,26 @@
 
 body {
     background-color: #26212b;
+    font-family: Inter, Open Sans, sans-serif;
 }
 
 #main {
     background-color: #eae9f9;
-    font-family: Inter, Open Sans, sans-serif;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align:center;
+}
+
+p {
+    font-size: 1.125rem;
 }
 
 
