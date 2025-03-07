@@ -51,6 +51,8 @@ label {
 button {
     display: block;
     padding: 5px;
+    text-align: center;
+    
 }
 
 /* Media Queries */
