@@ -58,7 +58,7 @@ button {
     display: block;
     padding: 5px;
     text-align: center;
-    
+    justify-content: center;
 }
 
 /* Media Queries */
