@@ -32,6 +32,12 @@ h3 {
 
 p {
     font-size: 1.125rem;
+    padding: 1em
+}
+
+ul {
+    font-size: 1.125rem;
+    padding: 1em
 }
 
 form {
