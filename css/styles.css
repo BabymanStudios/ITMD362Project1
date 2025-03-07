@@ -7,7 +7,6 @@ body {
 
 #main {
     background-color: #eae9f9;
-
 }
 
 h1 {
@@ -24,7 +23,11 @@ p {
     font-size: 1.125rem;
 }
 
+form {
+    margin: 0 auto;
+    background: #9494dc;
 
+  }
 
 
 
