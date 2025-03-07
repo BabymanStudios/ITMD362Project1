@@ -13,6 +13,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     padding: 1.5rem;
+    color: #eae9f9;
     /* Padding here is temporary solution. In the future I'll try to put this header in an image rather than leading the page. */
 }
 
@@ -51,8 +52,6 @@ button {
     display: block;
     padding: 5px;
 }
-
-/* #9494dc- blue, #7d7285 - gray, #d1a9b2 - whitish pink eae9f9 - white*/
 
 /* Media Queries */
 @media (min-width: 600px) {
