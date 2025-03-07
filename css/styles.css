@@ -6,7 +6,7 @@ body {
 }
 
 #main {
-    background-color: #eae9f9;
+    background-color: #d1a9b2;
 }
 
 h1 {
@@ -26,9 +26,12 @@ p {
 form {
     margin: 0 auto;
     background: #9494dc;
-
+    box-sizing: border-box;
+    max-width: 400px;
+    padding: 2rem 2rem;
+    box-shadow: 0 0 10px #7d7285
   }
 
 
 
-/* #9494dc- blue, #7d7285 - gray, #d1a9b2 - whitish pink */
+/* #9494dc- blue, #7d7285 - gray, #d1a9b2 - whitish pink eae9f9 - white*/
