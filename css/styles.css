@@ -47,6 +47,11 @@ label {
 	padding: 5px;
 }
 
+button {
+    display: block;
+    padding: 5px;
+}
+
 /* #9494dc- blue, #7d7285 - gray, #d1a9b2 - whitish pink eae9f9 - white*/
 
 /* Media Queries */
