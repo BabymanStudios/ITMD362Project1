@@ -51,13 +51,17 @@ form {
     box-sizing: border-box;
     max-width: 400px;
     padding: 2rem 2rem;
-    box-shadow: 0 0 10px #7d7285
+    box-shadow: 0 0 15px #7d7285
   }
 
 label {
 	display: block;
 	padding: 5px;
 }
+
+input, button {
+    width: 97%;
+  }
 
 .button {
     display: block;
