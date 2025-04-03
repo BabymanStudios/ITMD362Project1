@@ -59,7 +59,7 @@ label {
 	padding: 5px;
 }
 
-textarea, button {
+input, textarea, button {
     width: 97%;
   }
 
