@@ -5,6 +5,10 @@ body {
     font-family: Inter, Open Sans, sans-serif;
 }
 
+#head {
+    justify-content: center;
+}
+
 #main {
     background-color: #d1a9b2;
 }
