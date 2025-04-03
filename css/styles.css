@@ -68,7 +68,7 @@ input {
 }
 
 .checkLabel {
-  display: flex !important
+  display: inline-block !important
 }
 
 .button {
