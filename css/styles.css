@@ -58,7 +58,7 @@ label {
 	padding: 5px;
 }
 
-button {
+.button {
     display: block;
     padding: 5px;
     text-align: center;
