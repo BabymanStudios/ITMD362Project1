@@ -59,13 +59,17 @@ label {
 	padding: 5px;
 }
 
-button {
+textarea, button {
     width: 97%;
   }
 
+.checkLabel {
+  display: flex
+}
+
 .button {
     display: block;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
