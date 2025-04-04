@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
+  console.log("File linked");
+  
   const signupLink = document.getElementById("signupLink");
   const signupForm = document.getElementById("signupForm");
 
-  signupLink.addEventListener("click", function () {
-      signupForm.classList.add("glow");
-
-      setTimeout(() => {
-          signupForm.classList.remove("glow");
-      }, 1500);
-  });
-
-  console.log("File linked");
-
+  if (signupLink && signupForm) {
+    signupLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        signupForm.classList.add("glow");
+        signupForm.scrollIntoView({ behavior: "smooth", block: "center" });
+        setTimeout(() => signupForm.classList.remove("glow"), 1500);
+    });
+  }
 });
