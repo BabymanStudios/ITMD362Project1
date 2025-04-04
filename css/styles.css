@@ -2,7 +2,7 @@
 
 body {
     background-color: #26212b;
-    font-family: Inter, Open Sans, sans-serif;
+    font-family: "Inter", "Open Sans", sans-serif;
 }
 
 div {
@@ -19,7 +19,6 @@ h1 {
     text-align: center;
     padding: 1.5rem;
     color: #eae9f9;
-    /* Padding here is temporary solution. In the future I'll try to put this header in an image rather than leading the page. */
 }
 
 h2 {
@@ -37,12 +36,12 @@ h3 {
 
 p {
     font-size: 1.125rem;
-    padding: 1em
+    padding: 1.125rem
 }
 
 ul {
     font-size: 1.125rem;
-    padding: 1em
+    padding: 1.125rem
 }
 
 form {
@@ -59,6 +58,7 @@ label {
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     width: 90%
 }
@@ -86,16 +86,41 @@ input[type=text], input[type=email] {
 /* Media Queries */
 @media (min-width: 600px) {
 	form {
-		max-width: 400px;
+		max-width: 500px;
 	}
 	
-	main {
-		max-width: 800px;
+	#main {
 		padding: 15px;
 	}
 	
 	h2 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
+
+    textarea, button {
+        padding: 10px
+      }
+    
 	
 	}
+
+@media (min-width: 1080px) {
+    form {
+        max-width: 800px;
+    }
+    
+    main {
+        max-width: 800px;
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    textarea, button {
+        padding: 15px
+      }
+    
+    
+    }
