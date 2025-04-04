@@ -124,3 +124,12 @@ input[type=text], input[type=email] {
     
     
     }
+
+/* Glow effect */
+#signupForm {
+    transition: box-shadow 0.5s ease-in-out;
+}
+ 
+.glow {
+    box-shadow: 0 0 20px 5px #d1a9b2;
+}
