@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const signupLink = document.getElementById("signupLink");
-  const signupForm = document.getElementById("signupForm");
+  const signupLink = document.querySelector("#signupLink");
+  const signupForm = document.querySelector("#signupForm");
 
   if (signupLink && signupForm) {
     signupLink.addEventListener("click", function (e) {
