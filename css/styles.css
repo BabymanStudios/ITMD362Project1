@@ -135,5 +135,5 @@ input[type=text], input[type=email] {
 }
  
 .glow {
-    box-shadow: 0 0 50px  #d1a9b2;
+    box-shadow: 0 0 50px  #d1a9b2 !important;
 }
