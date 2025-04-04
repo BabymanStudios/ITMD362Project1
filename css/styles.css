@@ -63,10 +63,6 @@ textarea, button {
     width: 97%;
   }
 
-input {
-    width: 90%
-}
-
 .checkLabel {
   display: inline-block !important
 }
