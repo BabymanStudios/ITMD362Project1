@@ -44,6 +44,10 @@ ul {
     padding: 1.125rem
 }
 
+ul li {
+    padding: 1.125rem
+}
+
 form {
     margin: 0 auto;
     background: #9494dc;
@@ -131,5 +135,5 @@ input[type=text], input[type=email] {
 }
  
 .glow {
-    box-shadow: 0 0 20px 5px #d1a9b2;
+    box-shadow: 0 0 50px  #d1a9b2;
 }
