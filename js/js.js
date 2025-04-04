@@ -9,4 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
           signupForm.classList.remove("glow");
       }, 1500);
   });
+
+  console.log("File linked");
+
 });
